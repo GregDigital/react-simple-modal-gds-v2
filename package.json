@@ -1,0 +1,47 @@
+{
+  "name": "react-simple-modal-gds",
+  "author": "Greg Dos Santos",
+  "version": "1.1.2",
+  "description": "React component modal ",
+  "main": "dist/Modal.js",
+  "module": "dist/Modal.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/preset-env": "^7.15.0",
+    "@testing-library/dom": "^8.10.1"
+  }
+}
