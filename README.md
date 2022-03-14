@@ -10,10 +10,7 @@ https://www.npmjs.com/package/react-simple-modal-gds
 
 `npm i react-simple-modal-gds`
 
-### Usage
-
-To use the plugin, import it in your React component.
-It needs 3 props to work: `handleChange`, `content` and `value`
+### Settings
 
 ```javascript
 import Modal from "react-simple-modal-gds";
