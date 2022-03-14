@@ -15,7 +15,16 @@ https://www.npmjs.com/package/react-simple-modal-gds
 ```javascript
 import Modal from "react-simple-modal-gds";
 
-const MyComponent = () => {
-  <Modal handleChange={labels} value={trueOrFalse} content={myText} />;
-};
+export default function App() {
+  const [open, setOpen] = useState(false);
+  const openModal = () => {
+    setOpen(!open);
+  };
+  return (
+    <>
+      <Modal content="Employee Created !" handleChange={setOpen} value={open} />
+      <button onClick={openModal}>button</button>
+    </>
+  );
+}
 ```

@@ -8,7 +8,6 @@ export default function App() {
   };
   return (
     <>
-      {/* isOpen allows to toggle value of open */}
       <Modal content="Employee Created !" handleChange={setOpen} value={open} />
       <button onClick={openModal}>button</button>
     </>
